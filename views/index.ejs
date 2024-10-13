@@ -1,0 +1,75 @@
+<%- include ("./partials/header.ejs") %>
+<main>
+  <!--Main html code goes here-->
+  <div class="row justify-content-center">
+    <!-- Wrapping in row and centering content -->
+    <div class="col-6 d-flex justify-content-around">
+      <!-- Player 1 content -->
+      <div>
+        <div>
+          <img
+            id="player-1"
+            src="/image/player/P1.png"
+            alt="Player-1"
+            class="myImage"
+          />
+        </div>
+        <br />
+        <div>
+          <img
+            id="player-1-play"
+            src="/image/props/default.jpg"
+            alt="player-1-action"
+            class="myImage"
+          />
+        </div>
+        <br />
+        <div>
+          <img
+            id="player-1-conclusion"
+            src="/image/props/default.jpg"
+            alt="player-1-reaction"
+            class="myImage"
+          />
+        </div>
+      </div>
+      <!-- Player 2 content -->
+      <div>
+        <div>
+          <img
+            id="player-2"
+            src="/image/player/P2.png"
+            alt="Player-2"
+            class="myImage"
+          />
+        </div>
+        <br />
+        <div>
+          <img
+            id="player-2-play"
+            src="/image/props/default.jpg"
+            alt="player-2-action"
+            class="myImage"
+          />
+        </div>
+        <br />
+        <div>
+          <img
+            id="player-2-conclusion"
+            src="/image/props/default.jpg"
+            alt="player-2-reaction"
+            class="myImage"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <div>
+    <p id="conclusion">Click "Play" to start!</p>
+  </div>
+  <button id="play-button" class="btn btn-primary mt-3" type="button">
+    Play!
+  </button>
+</main>
+<%- include ("./partials/footer.ejs") %>
