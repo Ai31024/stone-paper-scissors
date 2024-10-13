@@ -3,14 +3,14 @@ jQuery(function () {
     // Your game logic goes here (the existing jQuery code)
     let choice = ["stone", "paper", "scissors"];
     let choiceAction = [
-      "../public/image/props/stone.png",
-      "../public/image/props/paper.png",
-      "../public/image/props/scissor.png",
+      "./public/image/props/stone.png",
+      "./public/image/props/paper.png",
+      "./public/image/props/scissor.png",
     ];
     let choiceReaction = [
-      "../public/image/props/prize.png", // win
-      "../public/image/props/draw.png", // draw
-      "../public/image/props/boohoo.jpg", // lose
+      "./public/image/props/prize.png", // win
+      "./public/image/props/draw.png", // draw
+      "./public/image/props/boohoo.jpg", // lose
     ];
 
     let player1Choice = choice[Math.floor(Math.random() * 3)];
