@@ -64,7 +64,7 @@ Make sure you have the following installed:
 1. After installing the dependencies, start the server:
 
    ```bash
-   npm start
+   nodemon server.js
    ```
 
 2. Open your web browser and go to:
