@@ -11,6 +11,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./public/style/simpleStyle.css" />
+    <style>
+      /* Additional mobile adjustments */
+      .myImage {
+        max-width: 100%;
+        height: auto;
+      }
+      #play-button {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+      }
+    </style>
   </head>
   <body>
     <div class="container text-center">
@@ -23,9 +34,9 @@
         <!--Main html code goes here-->
         <div class="row justify-content-center">
           <!-- Wrapping in row and centering content -->
-          <div class="col-6 d-flex justify-content-around">
+          <div class="col-md-6 col-sm-10 d-flex justify-content-around flex-wrap">
             <!-- Player 1 content -->
-            <div>
+            <div class="p-2">
               <div>
                 <img
                   id="player-1"
@@ -54,7 +65,7 @@
               </div>
             </div>
             <!-- Player 2 content -->
-            <div>
+            <div class="p-2">
               <div>
                 <img
                   id="player-2"
